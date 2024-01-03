@@ -1,0 +1,46 @@
+:root {
+    --primary-color: rgb(0, 0, 0);
+    --accent-color: #ca3d3d;
+    --back-color: #dc8000;
+}
+
+nav {
+    background-color: #dc8000;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: normal;
+    color: var(--primary-color);
+    background-color: var(--accent-color);
+}
+
+
+.color-section {
+    background: linear-gradient(#ff8989, #904747);
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar-brand {
+    color: var(--primary-color);
+    text-shadow: #ff8989;
+}
+
+.card img {
+    height: 300px;
+}
+
+.card .btn {
+    background-color: var(--back-color);
+}
+
+.card .btn:hover {
+    box-shadow: 0 0 10px rgba(129, 255, 94, 0.569);
+}
+
+#about {
+    align-items: center;
+}
